@@ -1,0 +1,327 @@
+{% extends "base.html" %}
+{% block css %}
+<style type="text/css">
+	.home a{color:#801815!important;}
+
+
+	.servcios-home .row h3 {
+	    font-family: 'Permanent Marker', cursive!important;
+	    color: #801815;
+	    font-size: 40px;
+	    text-align: center;
+	}
+	.servcios-home .row p {
+    	font-size: 20px;
+    	text-align: center;
+	}
+	.servcios-home .vcenter ul li {
+	    font-size: 20px;
+	    text-align: center;
+	    color: #801815;
+	    text-align: left;
+	    margin-bottom: 10px;
+	    font-weight: bold;
+	}
+	.servcios-home .vcenter ul li span{color: black;    font-weight: normal;}
+	.servcios-home{display: none;} 
+	.servcios-home.active{display: block;}
+</style>
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" class="img-responsvie" src="../static/img/banner-home-iddeas-mkt.png">
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<h1 style="font-size: 0;">Iddeas Mkt Creative - Agencia de Marketing Digital en Cancún</h1>
+		<h2 class="text-center titulo2" style="margin-bottom: 0;">Nuestro mero mole. </h2>
+	</div>
+	<div class="row agencia-text">
+		<div class="container">
+			<div class="col-sm-12">
+				<p>Trabajemos juntos para lograr algo extraordinario para tus proyectos, pondremos creatividad, experiencia y visión para lograr los objetivos que te propongas.</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid">
+	<div class="row tabs">
+		<a href="" rel="branding">
+			<img src="../static/img/servicios/1-branding.png">
+			<div class="arrow-bottom "></div>
+		</a>
+		<a href="" rel="disenio">
+			<img src="../static/img/servicios/2-disenio.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+		<a href="" rel="contenido">
+			<img src="../static/img/servicios/3-contenido.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+		<a href="" rel="reputacion">
+			<img src="../static/img/servicios/4-reputacion-online.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+		<a href="" rel="desarrollo">
+			<img src="../static/img/servicios/5-desarrollo-web-y-movil.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+		<a href="" rel="produccion">
+			<img src="../static/img/servicios/6-produccion-publicitaria.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+		<a href="" rel="propiedad">
+			<img src="../static/img/servicios/7-propiedad-intelectual.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+		<a href="" rel="asesorias">
+			<img src="../static/img/servicios/8-asesorias.png">
+			<div class="arrow-bottom hidden-arrow"></div>
+		</a>
+	</div>
+</div>
+<div id="branding" class="container-fluid servcios-home active">
+	<div class="container">
+		<div class="row">
+			<h3>Branding</h3>
+			<p>Damos vida y personalidad a tus proyectos.
+				<br><br>
+				Tu marca, una buena marca… siempre vende; nos metemos en la esencia de tu empresa para entender el concepto, definir tu potencial y con base en ello dar forma a tu imagen, que probablemente sea el activo más valioso que tengas, por eso ponemos mucho empeño aplicando toda nuestra experiencia para desarrollar y construir marcas que tengan corazón y personalidad, que realmente conectan con personas.
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Naming: <span>Es el proceso de desarrollo creativo para nombres comerciales, nombres de producto, avisos comerciales (slogans) y hashtags corporativos. Analizamos la industria, competencia y mercado para crear un concepto adecuado, además; nuestro equipo legal se encarga de la investigación para garantizar la elegibilidad de una marca y nuestro equipo de marketing hace un research para verificar la disponibilidad de perfiles, dominios y activos comerciales.</span></li>
+					<li>Identidad Corporativa: <span>Hacemos todo el desarrollo de tu imagen corporativa yendo desde tu logotipo, iconografía y comunicación gráfica interna, señalética comercial y definición de colorimetría.</span></li>
+					<li>Papelería Corporativa: <span>Diseñamos e imprimimos todo lo necesario para dar la imagen que necesitas dar;tarjetas de presentación, hojas membretadas, membretes, sellos, sobres, folders, firmas digitales, plantillas corporativas y brochures de tu marca.</span></li>
+					<li>Brand Book: <span>Integramos un documento rector para el uso y manejo de tu imagen, esto permite que tus colaboradores, proveedores, socios y aliados siempre hagan un uso correcto de tu imagen para que tu marca luzca siempre bien.</span></li>
+					<li>Desarrollo conceptual: <span>Con nuestro equipo de diseño industrial y proveedores contratistas, te ayudamos a bajar el concepto de tu marca a tu espacio, diseñamos y creamos espacios únicos que reflejen la identidad de tu marca, que transmitan su esencia y hagan sentir su presencia. </span></li>
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/servicios/1-branding-ilustracion.png"></div>
+		</div>
+	</div>
+</div>
+<div id="disenio" class="container-fluid servcios-home ">
+	<div class="container">
+		<div class="row">
+			<h3>Diseño</h3>
+			<p>La imagen habla por ti. ¿Qué quieres comunicar?
+				<br><br>
+				Un buen diseño es la mejor carta de presentación para tu marca; dar la imagen correcta es la clave para comunicar el mensaje deseado de la forma adecuada. Trabajamos de la mano contigo para integrar piezas que comuniquen lo que tu marca necesita para los objetivos que tengas.
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Publicitario: <span>Creamos formatos de diseño enfocados en pasar de la vista al amor, manejamos los formatos tradicionales de brochures, dípticos, trípticos, etc. o hacemos un formato personalizado, todos buscando que capten la atención de tus consumidores. </span></li>
+					<li>Ilustración: <span>Damos una identidad única a tu marca a través de nuestros diseños, elementos que sean únicos para tu marca. Desde el desarrollo de personajes (mascotas) hasta elementos decorativos para tus diseños digitales, físicos o de ambientación. </span></li>
+					<li>Editorial: <span>Contamos con la experiencia de diseñar formatos editoriales como brochures, boletines y revistas para diferentes marcas, logrando integrar la información que necesitas para comunicarla con un buen diseño. Con esto, logramos que tu información sea más digerible y mucho más atractiva.</span></li>
+					<li>Web: <span>Creamos diseños únicos para reflejar en tu site la personalidad de tu marca, diseños que combinen las herramientas digitales y la tecnología para obtener resultados que disfrute el usuario final siempre orientados hacia la experiencia que tendrá (UX: User Experience) con una interfaz amigable, sencilla e intuitiva (User Interface), que cause el impacto que necesitas para que tu marca sea memorable.</span></li>
+					<li>Prensa: <span>Nuestra experiencia trabajando con medios impresos, nos permite entregar resultados de gran calidad trabajando piezas de diseño orientadas a su ejecución final en prensa (como medio de comunicación) o canal de difusión, dejando listos los formatos para su producción física. </span></li>
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/servicios/2-disenio-ilustracion.png"></div>
+		</div>
+	</div>
+</div>
+<div id="contenido" class="container-fluid servcios-home ">
+	<div class="container">
+		<div class="row">
+			<h3>Contenido</h3>
+			<p>La calidad de tu contenido es la voz de tu marca. 
+				<br><br>
+				Generamos material de primera calidad para resaltar tu marca en todos los formatos; gráficos, digitales y audiovisuales. Con experiencia en diferentes industrias podemos ayudarte a crear la base de comunicación que requiere tu empresa. 
+
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Redacción y revisión editorial: <span>Aportamos nuestro talento en redacción para elaborar notas o blogs basadas en los atributos de tu marca, las condiciones de la industria, promociones, comunicados u otros contenidos pensados para tener cautivo a tu público y generar un mayor engagement hacia tu marca.</span></li>
+					<li>Redacción publicitaria (Copywriting): <span>Creamos frases que sean memorables, que destaquen a tu marca entre las demás. El copywriting es el canal para darle vida a una idea, porque el no saber comunicarla puede convertirla en un fracaso, por el contrario; el saber hacerlo puede incluso minimizar el impacto de una mala idea. </span></li>
+					<li>Fotografía / video de productos y servicios: <span>De la vista nace el amor, por eso generamos contenido gráfico que destaque el valor de tus productos y servicios, captamos la esencia, el momento, la forma, la textura, imágenes que realmente transmitan la emoción que lleve a la acción a tu mercado. </span></li>
+					<li>Fotografía / video de alimentos: <span>Realizamos sesiones visualmente apetecibles para enaltecer la calidad de tus platillos, montajes y preparaciones, contamos la historia detrás de la concepción de cada uno para darle a tu mercado contenido que pueda saborearlo y desee probarlo.</span></li>
+					<li>Fotografía / video con modelos: <span>Hacemos shootings que roben miradas y hagan lucir de forma única a tus productos o servicios, buscamos transmitir las emociones a través de tomas y encuadres que seduzcan al ojo y sean naturales, antes de la actuación preferimos la humanización. </span></li>
+					<li>FEdición audiovisual: <span>Nuestro equipo de producción y edición audiovisual crea historias que le cuenten al mundo de tu marca, que el espectador disfrute y desee compartirlas; utilizando los contenidos de tu marca logramos secuencias que transmitan mensajes que no olvide tu público.  </span></li>
+					<li>Cobertura de eventos: <span>Estamos ahí para cubrir la historia y poder contarla, haznos parte de tus eventos para tener memorias únicas, capta esos momentos especiales en donde tu marca interactúa con tus clientes o equipo; tu preocúpate por disfrutar tu evento, nosotros de hacer que nunca lo olvides.</span></li>
+					<li>Animación: <span>Le damos vida a tu marca a través de nuestras creaciones, creamos intros y closers para todos tus contenidos, aplicamos desde pequeñas transiciones, detalles de énfasis, y efectos hasta animaciones diseñadas exclusivamente para tu marca. </span></li>
+					<li>Fotografía y video aéreo: <span>Realizamos sesiones de fotografía y video con drones para poner literalmente tu marca a la altura que necesitas; gracias al equipo y la experiencia de nuestros pilotos de drones hacemos contenidos de alta calidad que le dan perspectiva a tu marca.  </span></li>
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/servicios/3-contenido-ilustracion.png"></div>
+		</div>
+	</div>
+</div>
+<div id="reputacion" class="container-fluid servcios-home">
+	<div class="container">
+		<div class="row">
+			<h3>Reputación Online (ORM: Online Reputation Management)</h3>
+			<p>Creamos relaciones entre clientes y marcas a través de clics. 
+				<br><br>
+				La presencia digital de tu marca es fundamental para un mundo cada vez más conectado, hoy el 60% de la población mundial está conectada, si tu marca no lo está… simplemente no estás. Nos encargamos de gestionar tus comunidades, posicionar tu imagen, cuidar la reputación de tu marca y fidelizar a tu mercado a través de una presencia online adecuada a tu marca.
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Social Media Marketing:<span>Gestionamos los perfiles digitales de tu marca (Facebook, Twitter, Instagram, Tik Tok, LikedIn, Google +, TripAdvisor, etc.) si no tienes, te ayudamos a insertarla en el ecosistema digital eligiendo las adecuadas para tu negocio, somos la voz de tu empresa lanzando comunicación constante y fluida, interactuamos con tus clientes y los conectamos con tu fuerza de ventas.</span></li>
+					<li>Social Media Ads: <span>Realizamos campañas en Facebook, Instagram, Twitter y otras plataformas sociales de acuerdo a tus objetivos, a fin de lograr que tus clientes potenciales de los clics a las ventas, usamos los diferentes formatos y objetivos que presta integrando toda la infraestructura digital de tu empresa orientado a ello.</span></li>
+					<li>SEM (Search Engine Marketing): <span>Desarrollamos una estrategia de marketing para nutrir a tu sitio web, el SEM no solo es el desarrollo de campañas de anuncios en red display, YouTube, Search, Apps, etc. Si no, más bien es el conjunto de técnicas utilizadas de contenidos, programación y esfuerzos pagados para robustecer tu presencia en la web apuntando diferentes estrategias para lograrlo.</span></li>
+					<li>SEO (Search Engine Optimization): <span>El posicionamiento de tu sitio web en Google y motores de búsqueda es el resultado de una combinación entre contenido + marketing + programación + especialización en el tema. Posicionamos tu página web para llevarla a una mejor posición, implementando las mejores prácticas de contenido, programación, rendimiento, usabilidad y demanda de recursos, así como herramientas que nos permitan poner a tu marca en los ojos de quién te está buscando, estar cuando te necesitan y de la forma que requiere tu público es la clave entre ser considerado o no.</span></li>
+					<li>SEA (Search Engine Ads): <span>Realizamos campañas aprovechando toda la infraestructura de herramientas de Google, identificamos las keywords de tu producto / servicio, los intereses de tu público, los sitios que más ve, los canales de YouTube que más visualiza, las horas en que se conecta, más otros data points para entender quién está del otro lado de la pantalla y con ello desarrollar una estrategia de anuncios pagados en los diferentes formatos que ofrece Google Ads para llegar en el momento preciso, con el mensaje idóneo y de esta manera insertarnos de manera natural en tu mercado. </span></li>
+					<li>Creatividad Digital: <span>Aportamos nuestra experiencia para crear estrategias online que destaquen a tu marca en línea, acelerando su presencia, reconocimiento y conversión, basándonos siempre en los atributos que hacen de tu empresa una experiencia única</span></li>
+					<li>Campañas 360º (Crossmedia Mkt): <span>Aprovechamos lo mejor del mundo digital y lo integramos con los medios offline mensajes que se compongan de las “dos realidades” del mundo actual y se complementen entre si para lograr campañas que envuelvan a tu público en una misma experiencia sin importar en que formato lo vea. </span></li>
+
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/servicios/4-reputacion-online-ilustracion.png"></div>
+		</div>
+	</div>
+</div>
+<div id="desarrollo" class="container-fluid servcios-home ">
+	<div class="container">
+		<div class="row">
+			<h3>Desarrollo web y móvil</h3>
+			<p>Desarrollamos experiencias que se vuelven conversiones.
+				<br><br>
+				Un sitio web, App móvil, Software movile / web que no brinde funcionalidad no genera nada. Desarrollamos experiencias de alto rendimiento y entendimiento para tus clientes, que solucionen problemas reales con la máxima simplicidad, que genere resultados medibles, hacemos todo bajo un modelado de Design Thinking que permita tener la base adecuada para estar listos hacia el futuro de tu empresa.
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Desarrollo Web: <span>Construimos sitios web que integren funcionalidad y diseño para generar una experiencia única a tus clientes, acercamos y presentamos la información de tu negocio de una manea inductiva que permita entender tu producto o servicio desde la generalidad hasta lo más específico. Una experiencia digital agradable y que favorezca la permanencia en el sitio, así como la recordación de la marca. </span></li>
+					<li>Desarrollo de Apps: <span>Creamos aplicaciones móviles para Apple y Android con la expertise de nuestros desarrolladores especialistas que se conviertan en una herramienta funcional para tu mercado y la necesidad que tenga. Analizamos las funcionalidades y con ello buscamos ampliar la experiencia de consumo de tu marca teniendo una interacción con el cliente de forma simplificada acercándole soluciones personalizables y a demanda. </span></li>
+					<li>Sistemas Web / Mobile: <span>Desarrollamos sistemas que faciliten la interacción con tus clientes, el control de tu negocio, la gestión de tus ventas e inventarios o integramos funcionalidades de transacción, logística comercial, almacenamiento de datos, etc. conectamos tu marca con el mundo a través de APIs que cumplan las funciones que necesites para por ejemplo llevar tu tienda a cualquier parte del mundo conectándola con servicios de logística internacional, todo creado de acuerdo a tus necesidades.</span></li>
+					<li> eCommerce: <span>Ponemos tus productos al alcance de tus clientes a través de clics, creamos sitios que brinden una experiencia de compra completa y optimizada para facilitarle el proceso a tu cliente. Conectamos tu tienda con las mejores herramientas de pagos y fintech disponibles para maximizar la seguridad, confidencialidad y estabilidad de las operaciones online de tu empresa brindándote un canal comercial sin fronteras, sin límites de infraestructura y disponible para vender las 24 horas del día, los 365 días del año. </span></li>
+
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/5-desarrollo-web-y-movil-ilustracion-iddeas-mkt.png"></div>
+		</div>
+	</div>
+</div>
+<div id="produccion" class="container-fluid servcios-home ">
+	<div class="container">
+		<div class="row">
+			<h3>Producción publicitaria</h3>
+			<p>Damos formato a tus ideas.
+				<br><br>
+				Darles forma a tus proyectos es nuestra pasión, hacemos desde tus flyers hasta la fachada de tu evento o negocio. El único límite es la creatividad.
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Imprenta Digital: <span>Contamos con talleres de impresión en alianza comercial en Ciudad de México, Cancún y Riviera Maya lo que nos permite brindar soluciones eficaces ante las necesidades y requerimientos de nuestros clientes. Contamos con las herramientas e infraestructura necesaria para producir formatos de alta calidad en impresión; flyers, lonas, brochures de ventas, trípticos, dípticos, pósters, tabloides, postales, tarjetas, boletos, etc. </span></li>
+					<li>Imprenta Offset: <span>Si requieres imprimir grandes cantidades, tenemos la solución perfecta a tus necesidades, con nuestros equipos de impresión offset obtenemos mayor volumen a menor costo y con una calidad adecuada para formatos de alto uso tales como comandas, hojas de remisión, controles internos, hojas de check in / out, blocs de notas, etc. </span></li>
+					<li>Corte láser: <span>Fabricamos lo que necesites, podemos cortar o grabar en diferentes materiales como, estireno, trovicel, acrílico, mdf, madera, aluminio, metal, entre otros para darle un look increíble a tus ideas con formatos que reflejen la calidad y el estatus de tu marca. </span></li>
+					<li> Letreros: <span>Deja que tu marca venda y hazla lucir con nosotros, capta la atención de quien visita tu negocio haciendo notar tu marca. Somos expertos en el montaje de letreros con cajas individuales, cajas luminosas, letras 3D, de neón o con relieve; sistemas de retroiluminación, control de intensidad, colores led, etc.</span></li>
+					<li> Escenografía: <span>Diseñamos y fabricamos la escenografía para tus eventos corporativos, así como la ambientación y props que acompañarán la experiencia de tu evento. Hemos trabajado con Congresos, Convenciones, Hoteleros, Expos comerciales, eventos políticos, eventos privados y conciertos lo que nos permite tener la experiencia necesaria para sumar con tu equipo y crear ambientes que destaquen la identidad de tu evento. </span></li>
+
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/6-produccion-publicitaria-ilustración-iddeas-mkt.png"></div>
+		</div>
+	</div>
+</div>
+<div id="propiedad" class="container-fluid servcios-home ">
+	<div class="container">
+		<div class="row">
+			<h3>Propiedad Intelectual</h3>
+			<p>Protege lo que más vale, tu marca. 
+				<br><br>
+				Quizás no lo sepas, pero tu patrimonio puede estar en riesgo. Como empresarios, emprendedores e innovadores natos, muchas veces la protección de tus ideas, modelos comerciales e industriales no son parte del pensamiento estratégico del negocio, sin embargo, esto es en si mismo un riesgo que pone en peligro todo el empeño en tu marca.
+
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Registro de marca: <span>Nuestro equipo legal cuenta con la experiencia para poder encargarnos de investigar el panorama legal de propiedad intelectual en torno a tu marca para encontrar la mejor estrategia y proteger tu marca (nombre / imagen / ambas) ante el Instituto Nacional de Propiedad Intelectual [IMPI] para que tus ideas estén siempre a salvo. </span></li>
+					<li>Registro de obra: <span>Cuidamos tu creatividad de obra (diseños, fotografías, documentos, audios, etc.) registrando ante el Instituto Nacional de Derechos de Autor [INDAUTOR] tus creaciones o bien las que adquieras a través de un contrato de servicios profesionales a través de la respectiva sesión de derechos correspondiente para proteger tu inversión a largo plazo. </span></li>
+					<li>Diseño y registro de modelos de utilidad (Registros de patente): <span>Contamos con la experiencia en dibujo técnico para desarrollar los planos industriales de tu proyecto exigidos por la autoridad para el registro de patentes ante el Instituto Nacional de Propiedad Intelectual [IMPI] como propiedad industrial. </span></li>
+					<li> Defensa de derechos comerciales: <span>Nuestro equipo de abogados expertos en la materia se encargará de defenderte, asesorarte y orientarte para cuidar tus ideas.</span></li>
+					
+
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/7-propiedad-intelectual-ilustración-iddeas-mkt.png"></div>
+		</div>
+	</div>
+</div>
+<div id="asesorias" class="container-fluid servcios-home ">
+	<div class="container">
+		<div class="row">
+			<h3>Asesorías</h3>
+			<p>Estamos para apoyarte en todo el camino.
+				<br><br>
+				Te acompañamos en cada etapa, gracias al equipo multidisciplinario, nuestra experiencia y la red de socios/aliados comerciales con los que contamos podemos ofrecerte toda nuestra infraestructura para alcanzar los objetivos de tu marca.  
+			</p>
+		</div>
+		<br><br>
+		<div class="row vcenter">
+			<div class="col-sm-6">
+				<ul>
+					<li>Branding: <span>Hacemos una inspección de tu marca y su entorno para determinar factores que integren una matriz FODA y con ello poder convertir tus oportunidades y debilidades en fortalezas y minimizar al máximo posible las amenazas para la imagen de tu empresa.</span></li>
+					<li>Marketing: <span>Analizamos los aspectos que rodean a tu marca para potencializar las ventajas competitivas que tienes capitalizándolas en nuevas unidades de negocio, relanzamientos de productos, expansión de tus servicios, desarrollo de experiencias ampliadas, valores agregados, etc.</span></li>
+					<li>Online Reputation Management: <span>Realizamos una auditoria en tus medios digitales, su entorno y el panorama ante la competencia para determinar tu posición e imagen en el mundo digital y tomar como base la misma para desarrollar una estrategia que integre las plataformas, herramientas y formatos más adecuados para tu marca.  </span></li>
+					<li> Media Management : <span>Medimos y monitoreamos el impacto de tus medios para determinar su funcionalidad y productividad; la información es poder y el poder tomar una decisión a tiempo es la clave para lograr las metas que tengas en el menor tiempo posible optimizando los recursos y maximizando los resultados.</span></li>
+					<li> Workshop eMkt : <span>Te compartimos las mejores herramientas para insertar a tu marca en el ecosistema digital, te enseñamos desde lo básico hasta lo más específico para capacitar o evaluar el desempeño de tu equipo en medios digitales. </span></li>
+					
+
+				</ul>
+			</div>
+			<div class="col-sm-6"><img src="../static/img/8-asesorias-ilustracion-iddeas-mkt.png"></div>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="container text-center">
+			<h2 class="titulo3">PONGÁMOSLE ESTILO</h2>
+			<h3 class="titulo4">Hagamos de tus proyectos algo único.</h3>
+			<br>
+			<a class="prefooter" href="../contacto">CONTÁCTANOS</a>
+			<br>
+			<br>
+			<p style="font-weight: 500;font-size: 40px;">
+				<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/facebook-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/facebook-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/facebook-logo-iddeas-mkt.png'"></a>
+				<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/twitter-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/twitter-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/twitter-logo-iddeas-mkt.png'"></a>
+				<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/instagram-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/instagram-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/instagram-logo-iddeas-mkt.png'"></a> / IddeasMKT
+			</p>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+	$('.tabs a').click(function(event){
+		event.preventDefault();
+		var page = $(this).attr('rel');
+		$('.arrow-bottom').addClass('hidden-arrow')
+		$('.arrow-bottom', this).removeClass('hidden-arrow')
+
+		$('.servcios-home').removeClass('active')
+		$('#'+page).addClass('active')
+
+	});
+</script>
+
+{% endblock  %}

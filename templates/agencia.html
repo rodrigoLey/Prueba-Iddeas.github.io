@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block css %}
+
+<style type="text/css">
+	.agencia a{color:#801815!important;}
+</style>
+{% endblock %}
+{% block content %}
+<div class="container-fluid" style="background-image: url(../static/img/agencia/Fondo-agencia-colaboradores-iddeas-mkt.png);">
+	<div class="row" style="display: none;">
+		<h1 class="titulo2" style="color: #801815;text-transform: inherit;margin-left: 50px;font-size: 50px;font-weight: 300;">#BeCreative</h1>
+		<div class="banner-agencia">
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/3-MARCO-iddeas-mkt.png"></div>
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/4-OSKAR-iddeas-mkt.png"></div>
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/7-MAX-iddeas-mkt.png"></div>
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/10-ENRIQUE-iddeas-mkt.png"></div>
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/1-XIMENA-iddeas-mkt.png"></div>
+
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/5-RENO-iddeas-mkt.png"></div>
+
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/6-PEPE-iddeas-mkt.png"></div>
+
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/8-JOSE-CARLOS-iddeas-mkt.png"></div>
+
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/9-ANA-iddeas-mkt.png"></div>
+
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/11-TERE-iddeas-mkt.png"></div>
+
+			<div class="text-center"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="margin: 0 auto;" src="../static/img/agencia/2-KIRA-iddeas-mkt.png"></div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<h2 class="text-center titulo2" style="margin-bottom: 0;margin-top: 70px;">Agencia</h2>
+	</div>
+	<div class="row agencia-text">
+		<div class="container">
+			<div class="col-sm-12">
+				<p>Somos la agencia <b>full service ϟ</b> del sureste de México. Con 7 años de experiencia en las principales herramientas del marketing y la publicidad, un grupo de amantes del marketing en todas sus formas; enamorados de nuestro trabajo.</p>
+				<p>Trabajamos con la creatividad como base y la adaptamos a las necesidades de tus proyectos para desarrollar estrategias funcionales, atractivas y que generen resultados. Creemos en que la integración es la clave, no dividimos el marketing entre sus aplicaciones ponemos a trabajar las mejores herramientas offline y online para lograr que tu marca conecte de la mejor forma con su público.</p>
+				<p>Nuestro compromiso siempre es el mismo: Dar lo mejor de nosotros a todos nuestros clientes, orientarlos y asesorarlos en cada etapa que trabajen con nosotros, hacerlos crecer a través de nuestro trabajo y hacer marketing que genere resultados medibles y tangibles.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="container text-center">
+			<h2 class="titulo3">TRABAJEMOS JUNTOS</h2>
+			<h3 class="titulo4">Hagamos de tus proyectos algo único.</h3>
+			<br>
+			<a class="prefooter" href="../contacto">CONTÁCTANOS</a>
+			<br>
+			<br>
+			<p style="font-weight: 500;font-size: 40px;">
+				<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/facebook-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/facebook-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/facebook-logo-iddeas-mkt.png'"></a>
+				<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/twitter-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/twitter-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/twitter-logo-iddeas-mkt.png'"></a>
+				<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/instagram-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/instagram-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/instagram-logo-iddeas-mkt.png'"></a> / IddeasMKT
+			</p>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+	$('.banner-agencia').slick({
+		dots: false,
+		arrows:false,
+	  	infinite: true,
+	  	speed: 300,
+	  	slidesToShow: 1,
+	  	autoplay: true,
+  		autoplaySpeed: 2000,
+	});
+</script>
+
+{% endblock  %}

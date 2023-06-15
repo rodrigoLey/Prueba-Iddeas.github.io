@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block css %}
+
+<style type="text/css">
+	.contacto a{color:#801815!important;}
+</style>
+{% endblock %}
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+		<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" class="img-responsvie" src="../static/img/banner-home-iddeas-mkt.png">
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="container text-center">
+			<br>
+			<br>
+			<br>
+			<h1 class="titulo3">ESTAMOS A UN <span style="color:black">CLICK</span> DE DISTANCIA</h1>
+			<br>
+			<br>
+			<br>
+			
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h3 class="titulo4">CONTACTO</h3>
+					<br>
+					<br>
+					<p style="font-weight: 500;font-size: 20px;">Tel. <a href="tel:9988807136">+51 (998) 880 71 36</a> <br>
+					<a href="mailto:contacto@iddeasmkt.com">contacto@iddeasmkt.com</a><br>
+					Av. Pehaltun Esq. Torres SM. 505, Manzana 3 Lote 4, 77533 Cancún, Q.R. </p>
+					<br>
+					<br>
+					<p style="font-weight: 500;font-size: 20px;">
+						<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="height: 30px" src="../static/img/facebook-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/facebook-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/facebook-logo-iddeas-mkt.png'"></a>
+						<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="height: 30px" src="../static/img/twitter-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/twitter-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/twitter-logo-iddeas-mkt.png'"></a>
+						<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" style="height: 30px" src="../static/img/instagram-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/instagram-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/instagram-logo-iddeas-mkt.png'"></a> / IddeasMKT
+					</p>
+				</div>
+				<div class="col-sm-6">
+					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+					<script>
+					  hbspt.forms.create({
+						portalId: "6945624",
+						formId: "5f6ea3bc-955e-4cf3-9350-aa53f89f29cb"
+					  });
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+	$('.servcios-home').slick({
+		dots: false,
+		arrows:false,
+	  	infinite: true,
+	  	speed: 300,
+	  	slidesToShow: 1,
+	  	autoplay: true,
+  		autoplaySpeed: 2000,
+	});
+</script>
+
+{% endblock  %}
