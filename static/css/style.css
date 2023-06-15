@@ -31,6 +31,7 @@ header{background-color: #ededed;padding-top: 20px;padding-bottom: 20px;box-shad
     min-height: 100vh; 
     display: grid;
 	background-color: white;
+    margin-bottom: 5%;
 }
 .team-row{
 	width: 100%;
