@@ -97,6 +97,9 @@ header{background-color: black;padding-top: 20px;padding-bottom: 20px;box-shadow
 .servcios-home .vcenter ul li:before{content: '-';margin-right: 10px;}
 .servcios-home .vcenter a{margin: 0 auto;text-align: center;border: 1px solid #801815;padding: 10px;border-radius: 10px;color: #801815;font-family: 'Permanent Marker', cursive!important;transition: all .45s ease;}
 .servcios-home .vcenter a:hover{color: white;background-color: #801815;border-color: black;text-decoration: none;}
+.servcios-home .vcenter.slick-slide{
+    border-radius: 100px;
+}
 
 .banner-container-fluid{
     background-color: red;
