@@ -1,20 +1,20 @@
-<link href="./static/css/reset.css" rel="stylesheet">
-<link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-<link href="./static/css/style.css" rel="stylesheet">
+<link href="../static/css/reset.css" rel="stylesheet">
+<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="../static/css/style.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="./static/img/favicon-iddeas-mkt.png" />
-<link rel="apple-touch-icon" href="./static/img/apple-touch-icon.png" />
-<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./static/js/main.js"></script>
+<link rel="shortcut icon" href="../static/img/favicon-iddeas-mkt.png" />
+<link rel="apple-touch-icon" href="../static/img/apple-touch-icon.png" />
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../static/js/main.js"></script>
 <!--SLICK-->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
 <style type="text/css">
-	.home a{color:#801815!important;}
+	.home a{color:red!important;}
 </style>
 
 
@@ -51,21 +51,21 @@
 
 
 	<!-- Iconifier might be helpful for generating favicons and touch icons: http://iconifier.net -->
-	<link rel="shortcut icon" href="./static/img/favicon-iddeas-mkt.png" />
+	<link rel="shortcut icon" href="../static/img/favicon-iddeas-mkt.png" />
 	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK -->
 		 
-	<link rel="apple-touch-icon" href="./static/img/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="../static/img/apple-touch-icon.png" />
 	<!-- The is the icon for iOS's Web Clip and other things.
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
 	
 	<!-- concatenate and minify for production -->
-	<link href="./static/css/reset.css" rel="stylesheet">
-	<link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-	<link href="./static/css/style.css" rel="stylesheet">
+	<link href="../static/css/reset.css" rel="stylesheet">
+	<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link href="../static/css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 
@@ -96,7 +96,7 @@
 	</script-->
 	<!-- This is an un-minified, complete version of Modernizr. 
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
-	<script src="./bower_components/modernizr/modernizr.js"></script>
+	<script src="../bower_components/modernizr/modernizr.js"></script>
 	
 	<!-- Application-specific meta tags -->
 	<!-- Windows 8 -->
@@ -113,7 +113,7 @@
 	<meta property="og:title" content="{{my_title}} - Iddeas Creative Mkt" />
 	<meta property="og:description" content="{{my_description}}" />
 	<meta property="og:url" content="https://iddeasmkt.com/" />
-	<meta property="og:image" content="./static/img/banner-home-iddeas-mkt.png" />
+	<meta property="og:image" content="../static/img/banner-home-iddeas-mkt.png" />
 
 	<!-- Start of HubSpot Embed Code -->
 	  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6945624.js"></script>
@@ -134,8 +134,8 @@
 <header class="header">
 	<div class="container">
 		<div class="row vcenter">
-			<div class="col-sm-2 col-xs-7">
-			    <a href="index.html"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/logo-iddeas-mkt.png"></a>
+			<div class="col-sm-2 col-xs-7" id="header-col" >
+			    <a id="header-img" href="./home.html"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/logo-iddeas-mkt.png"></a>
 			</div>
 			<div class="col-sm-10 col-xs-5">
 				<nav class="navbar navbar-inverse">
@@ -149,21 +149,21 @@
 						</label>
 						<nav class="nav-mobile">
 						    <ul>
-						      	<li><a href="index.html">Home</a></li>
-						        <li><a href="./templates/agencia.html">Agencia</a></li>
-						        <li><a href="./templates/servicios.html">Servicios</a></li>
-						        <li><a href="./templates/proyectos.html">Proyectos</a></li>
-						        <li><a href="./templates/contacto.html">Contacto</a></li>
+						      	<li><a href="./home.html">Blog</a></li>
+						        <li><a href="./agencia.html">Teams</a></li>
+						        <li><a href="./servicios.html">Portafolio</a></li>
+						        <li><a href="./proyectos.html">Contacto</a></li>
+						        <li><a href="./contacto.html">Contacto</a></li>
 						    </ul>
 						  </nav>
 				    </div>
 				    <div id="navbar" class="collapse navbar-collapse pull-right">
 				      <ul class="nav navbar-nav">
-				        <li class="home"><a href="index.html">Home</a></li>
-				        <li class="agencia"><a href="./templates/agencia.html">Agencia</a></li>
-				        <li class="servicos"><a href="./templates/servicios.html">Servicios</a></li>
-				        <li class="proyectos-link"><a href="./templates/proyectos.html">Proyectos</a></li>
-				        <li class="contacto"><a href="./templates/contacto.html">Contacto</a></li>
+				        <li class="home"><a href="./home.html">Blog</a></li>
+				        <li class="agencia"><a href="./agencia.html">Teams</a></li>
+				        <li class="servicos"><a href="./servicios.html">Portafolio</a></li>
+				        <li class="proyectos-link"><a href="./proyectos.html">Contacto</a></li>
+				        <li class="contacto"><a href="./contacto.html">Contacto</a></li>
 				      </ul>
 				    </div><!--/.nav-collapse -->
 				  </div>
@@ -173,20 +173,34 @@
 	</div>
 </header>
 
-<div class="container-fluid">
+<div class="container-fluid" style="background-color: black;">
 	<div class="row">
-		<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" class="img-responsvie" src="./static/img/banner-home-iddeas-mkt.png">
+		<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" class="img-responsvie" src="../static/images/section1/iddeas_test2.png">
+	</div>
+</div>
+<div class="banner-container-fluid">
+	<div class="banner-row">
+		<div class="banner-col-4">
+			<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" class="img-responsvie" src="../static/img/logo-iddeas-mkt.png">
+		</div>
+		<div class="banner-col-8">
+				<p>Somos la agencia full service del sureste de México.</p>
+				<p>Un grupo de amantes del marketing en todas sus formas; enamorados de nuestro trabajo.</p>
+				<p>La creatividad es la base, nos adaptamos a las necesidades de cada proyecto desarrollando
+					estrategias funcionales, atractivas y que generen resultados.</p>
+				<h2>¡Hagamos equipo!</h2>
+		</div>
 	</div>
 </div>
 <div class="container-fluid">
 	<div class="row">
-		<h1 style="font-size: 0;">Iddeas Mkt Creative - Agencia de Marketing Digital en Cancún</h1>
+		<h1 style="font-size: 0; display: none;">Iddeas Mkt Creative - Agencia de Marketing Digital en Cancún</h1>
 		<h2 class="text-center titulo2">NUESTRO ADN</h2>
 	</div>
 	<div class="row">
-		<video class="video-adn" loop autoplay><link rel="apple-touch-icon" href="./static/img/apple-touch-icon.png" />
-		  <source src="./static/video/nuestro-adn-iddeas-mkt.mp4" type="video/mp4">
-		  <source src="./static/video/nuestro-adn-iddeas-mkt.webm" type="video/ogg">
+		<video class="video-adn" loop autoplay><link rel="apple-touch-icon" href="../static/img/apple-touch-icon.png" />
+		  <source src="../static/video/nuestro-adn-iddeas-mkt.mp4" type="video/mp4">
+		  <source src="../static/video/nuestro-adn-iddeas-mkt.webm" type="video/ogg">
 		Your browser does not support the video tag.
 		</video>
 	</div>
@@ -207,16 +221,16 @@
 		</div>
 	</div>
 </div>
-<div class="container-fluid" style="background-color: gray;">
+<div class="container-fluid" style="background-color: lightgray;" id="servicios-section">
 	<div class="row">
 		<h2 class="text-center titulo2" style="margin-bottom: 0;">Conoce nuestros servicios</h2>
 	</div>
-	<div class="row">
-		<div class="container">
+	<div class="row" id="carrusel-row">
+		<div class="container" id="slide-container">
 			<div class="servcios-home">
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/1-branding-ilustracion-iddeas-mkt.png" />
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/1-branding-ilustracion-iddeas-mkt.png" />
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Branding</h3>
@@ -234,7 +248,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/2-diseno-ilustracion-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/2-diseno-ilustracion-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Diseño</h3>
@@ -252,7 +266,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/3-contenido-ilustracion-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/3-contenido-ilustracion-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Contenido</h3>
@@ -275,7 +289,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/4-reputación-online-ilustracion-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/4-reputación-online-ilustracion-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Reputación Online</h3>
@@ -294,7 +308,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/5-desarrollo-web-y-movil-ilustracion-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/5-desarrollo-web-y-movil-ilustracion-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Desarrollo web y móvil</h3>
@@ -311,7 +325,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/6-produccion-publicitaria-ilustración-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/6-produccion-publicitaria-ilustración-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Producción publicitaria</h3>
@@ -329,7 +343,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/7-propiedad-intelectual-ilustración-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/7-propiedad-intelectual-ilustración-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Propiedad Intelectual</h3>
@@ -346,7 +360,7 @@
 				</div>
 				<div class="vcenter">
 					<div class="col-sm-6">
-						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/8-asesorias-ilustracion-iddeas-mkt.png" >
+						<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/8-asesorias-ilustracion-iddeas-mkt.png" >
 					</div>
 					<div class="col-sm-6 text-center">
 						<h3>Asesorías</h3>
@@ -367,6 +381,11 @@
 			</div>
 			
 		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" class="img-responsvie" src="../static/images/section1/iddeas_banner_test.png">
 	</div>
 </div>
 <br>
@@ -390,63 +409,63 @@
 					<div class="slide-track-left">
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona6.jpg" alt="">
+								<img src="../static/images/section1/persona6.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
@@ -454,63 +473,63 @@
 						<!----------------------------------------------------->
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona6.jpg" alt="">
+								<img src="../static/images/section1/persona6.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
@@ -523,63 +542,63 @@
 					<div class="slide-track-left">
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona6.jpg" alt="">
+								<img src="../static/images/section1/persona6.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
@@ -587,63 +606,63 @@
 						<!----------------------------------------------------->
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona6.jpg" alt="">
+								<img src="../static/images/section1/persona6.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona2.jpg" alt="">
+								<img src="../static/images/section1/persona2.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona1.jpg" alt="">
+								<img src="../static/images/section1/persona1.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona3.jpg" alt="">
+								<img src="../static/images/section1/persona3.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
 						</div>
 						<div class="slide-a">
 							<div class="container-img">
-								<img src="./static/images/persona5.jpg" alt="">
+								<img src="../static/images/section1/persona5.jpg" alt="">
 								<h4>Max</h4>
 								<p>Community Manager</p>
 							</div>
@@ -656,71 +675,14 @@
 				<div class="slider-track-mobile-a">
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona1.jpg" alt="">
+							<img src="../static/images/section1/persona1.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona2.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-						
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona3.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona5.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona6.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona2.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona3.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona1.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona1.jpg" alt="">
-							<h4>Max</h4>
-							<p>Community Manager</p>
-						</div>
-					</div>
-					<div class="slide-mobile-a">
-						<div class="container-mobile">
-							<img src="./static/images/persona2.jpg" alt="">
+							<img src="../static/images/section1/persona2.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
@@ -728,42 +690,99 @@
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona3.jpg" alt="">
+							<img src="../static/images/section1/persona3.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona5.jpg" alt="">
+							<img src="../static/images/section1/persona5.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona6.jpg" alt="">
+							<img src="../static/images/section1/persona6.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona2.jpg" alt="">
+							<img src="../static/images/section1/persona2.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona3.jpg" alt="">
+							<img src="../static/images/section1/persona3.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
 					</div>
 					<div class="slide-mobile-a">
 						<div class="container-mobile">
-							<img src="./static/images/persona1.jpg" alt="">
+							<img src="../static/images/section1/persona1.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona1.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona2.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+						
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona3.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona5.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona6.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona2.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona3.jpg" alt="">
+							<h4>Max</h4>
+							<p>Community Manager</p>
+						</div>
+					</div>
+					<div class="slide-mobile-a">
+						<div class="container-mobile">
+							<img src="../static/images/section1/persona1.jpg" alt="">
 							<h4>Max</h4>
 							<p>Community Manager</p>
 						</div>
@@ -780,13 +799,13 @@
 			<h2 class="titulo3">PONGÁMOSLE ESTILO</h2>
 			<h3 class="titulo4">Hagamos de tus proyectos algo único.</h3>
 			<br>
-			<a class="prefooter" href="./templates/contacto.html">CONTÁCTANOS</a>
+			<a class="prefooter" href="./contacto.html">CONTÁCTANOS</a>
 			<br>
 			<br>
 			<p style="font-weight: 500;font-size: 40px;">
-				<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/facebook-logo-iddeas-mkt.png" onmouseover="this.src='./static/img/facebook-red-logo-iddeas-mkt.png'" onmouseout="this.src='./static/img/facebook-logo-iddeas-mkt.png'"></a>
-				<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/twitter-logo-iddeas-mkt.png" onmouseover="this.src='./static/img/twitter-red-logo-iddeas-mkt.png'" onmouseout="this.src='./static/img/twitter-logo-iddeas-mkt.png'"></a>
-				<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/instagram-logo-iddeas-mkt.png" onmouseover="this.src='./static/img/instagram-red-logo-iddeas-mkt.png'" onmouseout="this.src='./static/img/instagram-logo-iddeas-mkt.png'"></a> / IddeasMKT
+				<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/facebook-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/facebook-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/facebook-logo-iddeas-mkt.png'"></a>
+				<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/twitter-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/twitter-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/twitter-logo-iddeas-mkt.png'"></a>
+				<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/instagram-logo-iddeas-mkt.png" onmouseover="this.src='../static/img/instagram-red-logo-iddeas-mkt.png'" onmouseout="this.src='../static/img/instagram-logo-iddeas-mkt.png'"></a> / IddeasMKT
 			</p>
 		</div>
 	</div>
@@ -795,7 +814,7 @@
 <footer class="footer">
 	<div class="container" style="margin-bottom: 20px;">
 		<div class="col-sm-3">
-			<img style="filter: invert(1) contrast(0) brightness(5);width: 60%;height: auto;" alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/logo-iddeas-mkt.png">
+			<img style="filter: invert(1) contrast(0) brightness(5);width: 60%;height: auto;" alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/logo-iddeas-mkt.png">
 			<br>
 			<br>
 			<p style="color: white">Agencia de Marketing full service ϟ branding, diseño, contenidos, Mkt Digital, desarrollo web y móvil, producción publicitaria, propiedad intelectual y asesorías.</p>
@@ -804,9 +823,9 @@
 			<h3 style="color: white">Partners</h3>
 			<br>
 			<br>
-			<img style="filter: none;height: auto; width: 90%" class="img-reponsive" src="./static/img/Iddeasmkt-agencia-de-marketing-digital-google-partner.png">
-			<img style="filter: none;height: auto;width: 90%" class="img-reponsive" src="./static/img/Iddeasmkt-agencia-de-marketing-digital-facebook-partner.png">
-			<img style="filter: none;height: auto;width: 90%" class="img-reponsive" src="./static/img/Iddeasmkt-agencia-de-marketing-digital-FB-Leaders.jpg">
+			<img style="filter: none;height: auto; width: 90%" class="img-reponsive" src="../static/img/Iddeasmkt-agencia-de-marketing-digital-google-partner.png">
+			<img style="filter: none;height: auto;width: 90%" class="img-reponsive" src="../static/img/Iddeasmkt-agencia-de-marketing-digital-facebook-partner.png">
+			<img style="filter: none;height: auto;width: 90%" class="img-reponsive" src="../static/img/Iddeasmkt-agencia-de-marketing-digital-FB-Leaders.jpg">
 
 		</div>
 		<div class="col-sm-3">
@@ -815,9 +834,9 @@
 		</div>
 		<div class="col-sm-3">
 			<h3 style="color: white">Redes</h3>
-			<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/facebook-logo-iddeas-mkt.png"></a>
-				<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/twitter-logo-iddeas-mkt.png"></a>
-				<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="./static/img/instagram-logo-iddeas-mkt.png"></a>
+			<a href="https://www.facebook.com/IddeasMkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/facebook-logo-iddeas-mkt.png"></a>
+				<a href="https://twitter.com/iddeasmkt" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/twitter-logo-iddeas-mkt.png"></a>
+				<a href="https://www.instagram.com/iddeasmkt/" target="_blank"><img alt="Agencia de Marketing Digital en Cancún - Iddeas Mkt Creative" src="../static/img/instagram-logo-iddeas-mkt.png"></a>
 		</div>
 	</div>
 	<div class="container">
@@ -834,9 +853,9 @@
 	</div>
 </footer>
 <div class="epseo" style="height:0;"><p style="height:0!important;font-size: 0;">Sitio desarrollado por <a href="https://epconsulting.mx">EPConsulting</a></p></div>
-<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-<script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./static/js/main.js"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../static/js/main.js"></script>
 <!--SLICK-->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

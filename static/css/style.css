@@ -2,12 +2,14 @@
 .vcenter {display: flex!important;align-items: center;}
 .img-responsive, .img-responsvie{width: 100%!important;}
 
-header{background-color: #ededed;padding-top: 20px;padding-bottom: 20px;box-shadow: 0px 0px 30px;position: relative;}
-.navbar{margin-bottom: 0;background: transparent;border: none;}
-.navbar-inverse .navbar-nav>li>a {color: #000;font-size: 20px;    text-transform: uppercase;    font-weight: 500;}
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {background-color:transparent!important;color: #000;font-size: 20px;}
-.navbar-inverse .navbar-nav>li>a:hover{color:#801815;}
 
+header{background-color: black;padding-top: 20px;padding-bottom: 20px;box-shadow: 0px 0px 30px;position: relative;}
+#header-col{ width: 20%; left: -20%; margin-top: 5%;}
+.navbar{margin-bottom: 0;background: transparent;border: none;}
+.navbar-inverse .navbar-nav>li>a {color: white;font-size: 20px;   font-weight: 500; }
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {background-color:transparent!important;color: red;font-size: 20px;}
+.navbar-inverse .navbar-nav>li>a:hover{color:red;}
 /*********------------HOME------------**********/
 .video-adn{width: 100%}
 .slick-list.draggable{padding-top: 50px;padding-bottom: 35px;}
@@ -15,17 +17,154 @@ header{background-color: #ededed;padding-top: 20px;padding-bottom: 20px;box-shad
 .titulo3 span{font-family: 'Permanent Marker', cursive!important;color: #801815;font-size: 50px;}
 .titulo2{font-weight: 600;font-size: 40px;padding-top: 20px;padding-bottom: 30px;z-index: 99;position: relative;text-transform: uppercase;}
 
+#servicios-section{
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#carrusel-row{
+    height: 500px;
+}
+#slide-container{
+    height: 100%;
+}
+
+.vcenter.slick-slide{
+    margin-left: 35px;
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+    #servicios-section{
+        height: 140%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+    #servicios-section{
+        height: 120%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    #servicios-section{
+        height: 160%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #slide-container{
+        height: 160%;
+    }
+
+}
+
+@media (max-width: 300px) {
+    #servicios-section{
+        height: 170%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #slide-container{
+        height: 150%;
+    }
+
+    .col-sm-6.text-center h3{
+        font-size: 30px !important; 
+        color: red !important;
+    }
+    .col-sm-6.text-center p{
+        font-size: 15px !important; 
+    }
+    .col-sm-6.text-center li{
+        font-size: 18px !important; 
+    }
+}
+
+
+
 .titulo2{font-weight: 400;font-size: 45px;padding-top: 20px;padding-bottom: 30px;margin-bottom: -130px;z-index: 99;position: relative;text-transform: uppercase;}
 .insights {margin-top: -140px;position: relative;z-index: 99;}
-.insights .col-sm-4 h3{text-align: center;font-weight: 300;font-size: 25px;text-transform: uppercase;}
+.insights .col-sm-4 h3{text-align: center;font-weight: 600;font-size: 25px;text-transform: uppercase;}
 .insights .col-sm-4 p{text-align: center;font-weight:400;font-size: 16px;}
 .servcios-home .vcenter{background-color: white; border-radius: 5%;}
-.servcios-home .vcenter h3{font-family: 'Permanent Marker', cursive!important;color: #801815;font-size: 40px;text-align: center;}
-.servcios-home .vcenter p{font-size: 20px;text-align: center;}
-.servcios-home .vcenter ul li{font-size: 20px;text-align: center;color: #801815;}
+.servcios-home .vcenter h3{color: black;font-size: 40px;text-align: center; font-weight: 600;text-transform: uppercase;}
+.servcios-home .vcenter p{font-size: 20px;text-align: center; font-weight: 200;}
+.servcios-home .vcenter ul li{font-size: 20px;text-align:center;color: red; font-weight: 500;}
 .servcios-home .vcenter ul li:before{content: '-';margin-right: 10px;}
 .servcios-home .vcenter a{margin: 0 auto;text-align: center;border: 1px solid #801815;padding: 10px;border-radius: 10px;color: #801815;font-family: 'Permanent Marker', cursive!important;transition: all .45s ease;}
 .servcios-home .vcenter a:hover{color: white;background-color: #801815;border-color: black;text-decoration: none;}
+
+.banner-container-fluid{
+    background-color: red;
+    height: 600px;
+}
+
+.banner-row{
+    padding-top: 4%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-col-4{
+    width: 33.33%;
+}
+.banner-col-8{
+    width: 66.66%;
+    padding-top: 8%;
+}
+.banner-col-8 p{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0;
+    margin-left: 5%;
+}
+.banner-col-8 h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 550;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+@media (max-width: 415px) {
+    .banner-container-fluid{
+        height: 140%;
+    }
+    .banner-row{
+        display: block !important;
+        flex-direction: column !important;
+    }
+    .banner-col-4{
+        margin-top: 5%;
+        width: 100%;
+    }
+    .banner-col-8{
+        margin-top: 5%;
+        width: 100%;
+    }
+    .banner-col-8 p{
+        margin-top: 2%;
+        font-size: 22px;
+    }
+    .banner-col-8 h2{
+        margin-top: 10%;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
 
 #team-section{
     min-height: 100vh; 
@@ -268,6 +407,75 @@ header{background-color: #ededed;padding-top: 20px;padding-bottom: 20px;box-shad
         transform: rotateZ(180deg);
     }
 
+  }
+
+  @media (min-width: 950px) and (max-width: 1200px) {
+    /* Aquí van los estilos específicos para pantallas medianas */
+
+    .container-team{
+        padding-right: 10%;
+    }
+    .container-img{
+        padding: 0;
+    }
+    
+    .slider-a{
+        height: 100%;
+        margin: auto;
+        position: absolute;
+        width: 240px;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+    }
+    .slide-a{
+        padding: 2%;
+        margin-bottom: 30%;
+    }
+
+  }
+
+  @media (min-width: 1201px) and (max-width: 1799px) {
+    .slide-a{
+        padding: 2;
+        margin-bottom: 50%;
+    }
+    .container-img{
+        padding: 0;
+    }
+    .container-img h4{
+        font-size: 20px;
+    }
+    .container-img p{
+        font-size: 20px;
+    }
+    .slider-a{
+        width: 330px;
+    }
+  }
+
+  @media (min-width: 1800px) {
+    .slide-a{
+        padding: 2%;
+        margin-bottom: 50%;
+    }
+    .container-img{
+        padding: 0;
+    }
+
+    .container-img h4{
+        font-size: 20px;
+    }
+    .container-img p{
+        font-size: 20px;
+    }
+    .container-img img{
+        height: fit-content;
+        
+    }
+    .slider-a{
+        width: 440px;
+    }
   }
 
 .agencia-text{margin-bottom: 20px;margin-top: 20px;}
